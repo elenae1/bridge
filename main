@@ -8,3 +8,5 @@ _LDFLAGSSTRING := "'" + trim(
     "") + "'"
 # Run tests
 test: (go_test "./...")
+# Run tests
+test: (go_test "./...")
