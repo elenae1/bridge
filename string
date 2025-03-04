@@ -6,3 +6,5 @@ _LDFLAGSSTRING := "'" + trim(
     "-X main.GitDate=" + GITDATE + " " + \
     "-X main.Version=" + VERSION + " " + \
     "") + "'"
+# Run tests
+test: (go_test "./...")
