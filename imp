@@ -7,4 +7,4 @@ _LDFLAGSSTRING := "'" + trim(
     "-X main.Version=" + VERSION + " " + \
     "") + "'"
 # Run tests
-test: (go_test "./...")
+test: (go_test "./..."
